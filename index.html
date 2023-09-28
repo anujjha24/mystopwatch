@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stopwatch</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+
+<body>
+    <hr>
+    <marquee behavior="alternate" direction=""><span id="currenttime">Today's Date :</span><span
+            id="date">
+            
+        </span></marquee>
+    <hr>
+    <div class="main_container">
+        <div class="stopwatch_container">
+            <div class="timeformat">
+                <span id="hr">
+                    
+                </span>
+            </div>
+            <div class="dotformat">
+                <span class="dot">
+
+                </span>
+                <span class="dot">
+
+                </span>
+
+            </div>
+            <div class="timeformat">
+                <span id="min">
+                    
+                </span>
+            </div>
+            <div class="dotformat">
+                <span class="dot">
+
+                </span>
+                <span class="dot">
+
+                </span>
+
+            </div>
+            <div class="timeformat">
+                <span id="sec">
+                    
+                </span>
+            </div>
+            <div style="height: 50px; display: flex; flex-flow: column-reverse;">
+            <span id="singledot">
+
+            </span>
+        </div>
+        <div id="milisecond">
+            00
+        </div>
+        </div>
+    </div>
+    <div class="button_container">
+        <button id="start">Start</button>
+        <span id="formargin"><button id="reset">Reset</button></span>
+        <button id="stop">Stop</button>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
